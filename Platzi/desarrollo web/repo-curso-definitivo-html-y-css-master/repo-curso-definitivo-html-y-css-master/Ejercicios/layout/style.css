@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  .header {
+    background-color: peru;
+  }
+  .header__logo, .nav, .nav__list li {
+    display: inline-block;
+    margin: 10px;
+  }
+  .nav {
+    position: absolute;
+    margin-top: 0rem;
+    right: 0px;
+  }
+
+  .nav__list {
+    list-style: none;
+  }
+
+  .nav__list li a {
+    text-decoration: none;
+    color: white;
+  }
+  .main {
+    min-height: auto;
+    background-color: rgb(134, 193, 245);
+  }
+  .routes {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    background-color: royalblue;
+    min-height: fit-content;
+  }
+  .routes__images img {
+    display: block;
+    margin: 5px;
+    border-radius: 10px;
+    height: 12rem;
+    width: 12rem;
+  }
+  .content {
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+  }
+  
