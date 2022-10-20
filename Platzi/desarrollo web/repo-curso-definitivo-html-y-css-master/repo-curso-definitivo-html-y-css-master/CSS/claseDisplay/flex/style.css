@@ -12,15 +12,18 @@ body {
 .container {
   border: 0.3rem solid black;
   display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;
+  /* height: 50vh; */
+  /* align-items: center; alinea elementos al centro */
+  align-items: stretch;
+  flex-wrap: wrap;
+  /* justify-content: center; */
 }
 
 .box {
   width: 10rem;
   height: 10rem;
   /* flex-basis: 10rem; */
-  /* flex-grow: 1; */
+  /* flex-grow: 1; Esto rellena el espació que hace falta*/
 }
 .box1 {
   background-color: blue;
